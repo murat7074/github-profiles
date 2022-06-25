@@ -1,0 +1,48 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Github Profiles</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="container1">
+        <form id="form">
+          <input type="text" id="search" placeholder="Search a Github User" />
+        </form>
+        <div id="divAlert"></div>
+
+        <div id="main"></div>
+
+        <div id="repos-container">
+          <h2>Repos</h2>
+
+          <div id="repos"></div>
+        </div>
+      </div>
+
+      <div id="container2">
+        <h3 class="page-heading mb-3">Son Aramalar</h3>
+
+        <ul id="last-users">
+          last-users
+        </ul>
+        <hr />
+        <button id="clear-last-users" class="btn btn-dark">
+          Son Arananları Temizle
+        </button>
+      </div>
+    </div>
+
+    <script src="github.js"></script>
+    <script src="storage.js"></script>
+    <script src="ui.js"></script>
+
+    <script src="app.js"></script>
+  </body>
+</html>
+
